@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="main_layout debug">
+  <div id="app" class="main_layout">
     
       <header>
         <Navbar />
@@ -28,14 +28,15 @@ export default {
 
 <style scoped>
 .main_layout {
-  display: flex;
-  flex-flow: wrap;
-  height: 100%;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 100vh;
 }
 header {
-  display: inline-block;
-  width: 200px;
-  height: 100%;
+  grid-column: 1/2;
+}
+main {
+  grid-column: 2/3;
 }
 
 </style>

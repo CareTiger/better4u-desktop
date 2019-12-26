@@ -27,6 +27,7 @@ export default {
     height: 100%;
 }
 nav {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }

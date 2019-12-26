@@ -2,23 +2,11 @@
 <template>
     <div class="navbar">
         <nav class="nav-group">
-            <router-link class="nav-group-item isActive" :to="{ name: 'Settings'}" exact>
-                <span class="icon icon-user">Settings</span>
-            </router-link>
-            <router-link class="nav-group-item isActive" :to="{ name: 'Home'}" exact>
+            <router-link class="nav-group-item" :to="{ name: 'Home'}" exact>
                 <span class="icon icon-home"></span>Home
             </router-link>
-            <router-link class="nav-group-item isActive" :to="{ name: 'Tasks'}" exact>
-                <span class="icon icon-clipboard"></span>Tasks
-            </router-link>
-            <router-link class="nav-group-item isActive" :to="{ name: 'TasksNew'}" exact>
-                <span class="icon icon-clipboard"></span>Tasks New
-            </router-link>
-            <router-link class="nav-group-item isActive" :to="{ name: 'Calendar'}" exact>
-                <span class="icon icon-calendar"></span>Calendar
-            </router-link>
-            <router-link class="nav-group-item isActive" :to="{ name: 'Storage'}" exact>
-                <span class="icon icon-folder"></span>Storage
+            <router-link class="nav-group-item" :to="{ name: 'Upload'}" exact>
+                <span class="icon icon-clipboard"></span>Upload
             </router-link>
         </nav>
     </div>

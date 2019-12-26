@@ -7,12 +7,12 @@ import Upload from '../components/Upload.vue';
 
 Vue.use(Router);
 
-const routes = [
-    { path: '/', component: Home, name: 'home' },
-    { path: '/upload', component: Upload, name: 'upload' },
-];
-
-export default routes;
+export default new Router({
+  routes: [
+    { path: "/", name: "Home", component: Home },
+    { path: "/upload", name: "Upload", component: Upload },
+  ]
+});
 
 /*
 import Vue from "vue";

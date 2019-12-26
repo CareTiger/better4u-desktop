@@ -8,9 +8,6 @@
       </header>
 
       <main>
-        <div>
-          App.vue
-        </div>
         <div class="better4u-content">
           <router-view />
         </div>

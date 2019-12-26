@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="main_layout debug">
     
       <header>
         <Navbar />
@@ -25,3 +25,17 @@ export default {
   })
 };
 </script>
+
+<style scoped>
+.main_layout {
+  display: flex;
+  flex-flow: wrap;
+  height: 100%;
+}
+header {
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+}
+
+</style>

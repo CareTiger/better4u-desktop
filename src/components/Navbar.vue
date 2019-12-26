@@ -2,10 +2,10 @@
 <template>
     <div class="navbar">
         <nav class="bg-light-gray black">
-            <router-link class="link pl2" :to="{ name: 'Home'}" exact>
+            <router-link class="link pa2 ml3 mt4" :to="{ name: 'Home'}" exact>
                 <span class="icon icon-home"></span>Home
             </router-link>
-            <router-link class="link pl2" :to="{ name: 'Upload'}" exact>
+            <router-link class="link pa2 ml3" :to="{ name: 'Upload'}" exact>
                 <span class="icon icon-clipboard"></span>Upload
             </router-link>
         </nav>
@@ -23,4 +23,11 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+    height: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
 </style>

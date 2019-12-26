@@ -1,5 +1,11 @@
 <template>
     <div>
-        Upload
+        Upload.vue
     </div>
 </template>
+
+<script>
+export default {
+    name: "Upload"
+}
+</script>

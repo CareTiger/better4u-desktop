@@ -26,5 +26,8 @@ vue run serve
 ```
 ### to distribute
 #### https://www.electron.build/#pack-only-in-a-distributable-format
+#### https://github.com/nklayman/vue-cli-plugin-electron-builder
+#### https://simulatedgreg.gitbooks.io/electron-vue/content/en/savingreading-local-files.html
+#### https://tachyons.io/
 
 

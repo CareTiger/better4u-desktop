@@ -1,24 +1,30 @@
 # better4u_desktop
 
 ## Project setup
+## Install or update vue-cli (https://cli.vuejs.org/)
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install -g @vue/cli
 ```
 
-### Compiles and minifies for production
+## Create a new project 
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+vue create my-project
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## run the new project 
+```
+vue run serve
+```
+
+## run the new project 
+```
+vue run serve
+```
+## Install or update electron-builder 
+```
+
+```
+### to distribute
+#### https://www.electron.build/#pack-only-in-a-distributable-format
+
+

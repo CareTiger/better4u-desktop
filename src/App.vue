@@ -2,15 +2,11 @@
   <div id="app">
     
       <header>
-        <div class="better4u-navbar">
-          <Navbar />
-        </div>
+        <Navbar />
       </header>
 
       <main>
-        <div class="better4u-content">
-          <router-view />
-        </div>
+        <router-view />
       </main>
 
   </div>

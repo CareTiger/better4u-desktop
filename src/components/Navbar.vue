@@ -1,11 +1,11 @@
 
 <template>
     <div class="navbar">
-        <nav class="nav-group">
-            <router-link class="nav-group-item" :to="{ name: 'Home'}" exact>
+        <nav class="bg-light-gray black">
+            <router-link class="link pl2" :to="{ name: 'Home'}" exact>
                 <span class="icon icon-home"></span>Home
             </router-link>
-            <router-link class="nav-group-item" :to="{ name: 'Upload'}" exact>
+            <router-link class="link pl2" :to="{ name: 'Upload'}" exact>
                 <span class="icon icon-clipboard"></span>Upload
             </router-link>
         </nav>
@@ -21,3 +21,6 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+</style>

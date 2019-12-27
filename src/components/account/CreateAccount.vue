@@ -35,8 +35,7 @@ export default {
             console.log("register")            
             await auth.createUserWithEmailAndPassword(this.email, this.password).then((response) => {
             }).catch((err) => {
-                // eslint-disable-next-line
-                Console.log("Hello world!");
+                console.log(err);
             })
 
         }

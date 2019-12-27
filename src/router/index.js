@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import Home from '../components/Home.vue';
 import Upload from '../components/Upload.vue';
+import CreateAccount from '../components/account/CreateAccount.vue';
 
 
 Vue.use(Router);
@@ -11,6 +12,7 @@ export default new Router({
   routes: [
     { path: "/", name: "Home", component: Home },
     { path: "/upload", name: "Upload", component: Upload },
+    { path: "/account/create", name: "CreateAccount", component: CreateAccount },
   ]
 });
 

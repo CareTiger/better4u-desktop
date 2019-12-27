@@ -8,6 +8,11 @@
             <router-link class="link pa2 ml3" :to="{ name: 'Upload'}" exact>
                 <span class="icon icon-clipboard"></span>Upload
             </router-link>
+
+            <!-- ACCOUNT -->
+            <router-link class="link pa2 ml3" :to="{ name: 'CreateAccount'}" exact>
+                <span class="icon icon-clipboard"></span>Create Account
+            </router-link>
         </nav>
     </div>
 </template>

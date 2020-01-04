@@ -21,7 +21,7 @@
             </form>
         </div>
         <div v-else>
-            <h5 class="f4 green">Yaay! You are signed up.</h5>            
+            <h5 class="f4 green">Yay! You are registered.</h5>            
         </div>
     </div>
 </template>

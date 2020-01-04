@@ -19,7 +19,7 @@
             </form>        
         </div>
         <div v-else>
-            <h5 class="f4 green">Yaay! You logged in successfully.</h5>
+            <h5 class="f4 green">Yay! You are logged in.</h5>
         </div>
 
     </div>

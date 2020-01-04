@@ -2,9 +2,14 @@ import Vue from "vue";
 import Router from "vue-router";
 
 import Home from '../components/Home.vue';
-import Upload from '../components/Upload.vue';
+// Account Components
 import Register from '../components/account/Register.vue';
 import Login from '../components/account/Login.vue';
+// Activities components
+import Upload from '../components/activities/Upload.vue';
+import Canvas from '../components/activities/Canvas.vue';
+import Calendar from '../components/activities/Calendar.vue';
+import Tasks from '../components/activities/Tasks.vue';
 
 
 Vue.use(Router);
@@ -12,9 +17,12 @@ Vue.use(Router);
 export default new Router({
   routes: [
     { path: "/", name: "Home", component: Home },
-    { path: "/upload", name: "Upload", component: Upload },
     { path: "/account/register", name: "Register", component: Register },
     { path: "/account/login", name: "Login", component: Login },
+    { path: "/activities/upload", name: "Upload", component: Upload },
+    { path: "/activities/canvas", name: "Canvas", component: Canvas },
+    { path: "/activities/tasks", name: "Calendar", component: Calendar },
+    { path: "/activities/calendar", name: "Tasks", component: Tasks },
   ]
 });
 

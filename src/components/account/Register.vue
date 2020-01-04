@@ -42,8 +42,19 @@ export default {
     },
     methods: {
         async register(){
-                console.log("register")            
-                await auth.createUserWithEmailAndPassword(this.email, this.password).then((response) => {
+            let accountRef = fireDb.collection('accounts')
+            await auth.createUserWithEmailAndPassword(this.email, this.password).then((response) => {
+                console.log(response)
+                accountRef.doc().set(
+                    {
+                        email: this.email, 
+                        id: auth.currentUser.uid
+                    }
+                    ).then((response) => {
+                    console.log("entry made")
+                }
+
+                )
                 this.success = true
             }).catch((err) => {
                 console.log(err);

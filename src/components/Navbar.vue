@@ -11,12 +11,15 @@
 
             <!-- ACCOUNT -->
             <div class="bb bw1 b--red"></div>
-            <router-link class="link pa2 ml3" :to="{ name: 'CreateAccount'}" exact>
-                <span class="icon icon-clipboard"></span>Account
+
+            <router-link class="link pa2 ml3" :to="{ name: 'Register'}" exact>
+                <span class="icon icon-clipboard"></span>Register
             </router-link>
-            <router-link class="link pa2 ml3" :to="{ name: 'CreateAccount'}" exact>
-                <span class="icon icon-clipboard"></span>Create Account
+
+            <router-link class="link pa2 ml3" :to="{ name: 'Login'}" exact>
+                <span class="icon icon-clipboard"></span>Login
             </router-link>
+            
         </nav>
     </div>
 </template>

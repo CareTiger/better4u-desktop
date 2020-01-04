@@ -1,7 +1,7 @@
 <template>
     <div class="ma4">
 
-        <h1 class="f3">Login</h1>
+        <h1 class="f3 mb4">Login</h1>
 
         <div v-if="!success">
             <form action="">
@@ -14,9 +14,8 @@
                     <input id="password" class="input-reset ba b--black-20 pa2 mb1 db w-100" type="password" placeholder="Password" v-model="password">
                 </div>
                 <div class="measure mb2">
-
+                    <a class="br-pill f6 dark-green no-underline ba grow pv2 ph4 dib" @click.prevent="Login">Login</a>
                 </div>
-                <a class="f6 dark-green no-underline ba grow pv2 ph4 dib" @click.prevent="Login">Login</a>
             </form>        
         </div>
         <div v-else>
